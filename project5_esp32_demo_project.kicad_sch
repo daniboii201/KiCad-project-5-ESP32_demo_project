@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4f22731a-f223-4edc-b2be-2233ce3b179a")
+	(paper "A4")
+	(title_block
+		(title "ESP32  sensor board - Root")
+		(date "2026-01-14")
+		(rev "-")
+		(company "Nonexistent Co.")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
