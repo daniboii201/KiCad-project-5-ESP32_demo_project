@@ -4667,6 +4667,26 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 57.15) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01248d8a-45a3-4a71-95fd-33b7f08cbba7")
+	)
+	(wire
+		(pts
+			(xy 246.38 26.67) (xy 248.92 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027934ef-5098-4357-9aa3-2d45d3010e4b")
+	)
+	(wire
+		(pts
 			(xy 45.72 113.03) (xy 31.75 113.03)
 		)
 		(stroke
@@ -4777,7 +4797,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 80.645) (xy 166.37 80.645)
+			(xy 152.4 80.645) (xy 166.37 80.645)
 		)
 		(stroke
 			(width 0)
@@ -4797,7 +4817,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 36.83) (xy 205.74 36.83)
+			(xy 152.4 36.83) (xy 205.74 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4824,16 +4844,6 @@
 			(type default)
 		)
 		(uuid "3278e8e9-d98d-40c7-8194-f5a878f310c4")
-	)
-	(wire
-		(pts
-			(xy 157.48 57.15) (xy 157.48 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bc98d5d-1d3b-421f-94c0-a7a1971bb1f7")
 	)
 	(wire
 		(pts
@@ -4967,7 +4977,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 74.93) (xy 175.26 80.645)
+			(xy 179.07 73.66) (xy 179.07 80.645)
 		)
 		(stroke
 			(width 0)
@@ -4994,6 +5004,16 @@
 			(type default)
 		)
 		(uuid "5a82585e-d964-4a13-9da6-5bb805fed392")
+	)
+	(wire
+		(pts
+			(xy 179.07 57.15) (xy 179.07 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5b4b66-e008-4522-9737-f509636fdb53")
 	)
 	(wire
 		(pts
@@ -5067,7 +5087,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 80.645) (xy 166.37 80.645)
+			(xy 179.07 80.645) (xy 166.37 80.645)
 		)
 		(stroke
 			(width 0)
@@ -5237,7 +5257,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 80.645) (xy 157.48 76.2)
+			(xy 152.4 80.645) (xy 152.4 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5297,7 +5317,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 49.53) (xy 175.26 41.91)
+			(xy 179.07 49.53) (xy 179.07 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5357,16 +5377,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 57.15) (xy 166.37 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c768b6f7-ccdf-4a47-a0ef-875e9ca92bd6")
-	)
-	(wire
-		(pts
 			(xy 166.37 80.645) (xy 166.37 85.09)
 		)
 		(stroke
@@ -5414,16 +5424,6 @@
 			(type default)
 		)
 		(uuid "cdbbee28-34a6-4d89-9eb6-fcafe4bb5577")
-	)
-	(wire
-		(pts
-			(xy 175.26 57.15) (xy 175.26 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cddbeecc-b910-48ed-a32e-4468505d3bb7")
 	)
 	(wire
 		(pts
@@ -5497,7 +5497,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 49.53) (xy 157.48 36.83)
+			(xy 152.4 36.83) (xy 152.4 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5527,7 +5527,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 41.91) (xy 205.74 41.91)
+			(xy 179.07 41.91) (xy 205.74 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5597,6 +5597,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 57.15) (xy 166.37 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc5af7a-425f-40b7-a3d6-92ed224c151c")
+	)
+	(wire
+		(pts
 			(xy 31.75 130.81) (xy 39.37 130.81)
 		)
 		(stroke
@@ -5635,15 +5645,15 @@
 		)
 		(uuid "3218a47e-a2dc-4d7c-95fe-612473c99e3a")
 	)
-	(label "+5V"
-		(at 246.38 26.67 0)
+	(label "CHARGING"
+		(at 179.07 49.53 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "462e51de-82a9-432f-afe0-9b5359f8bcd2")
+		(uuid "4d0a9d47-77b1-49fb-aba0-caf4915540f9")
 	)
 	(label "+5V_USB"
 		(at 203.2 31.75 180)
@@ -5705,6 +5715,16 @@
 		)
 		(uuid "7fa97849-817c-4500-8d22-977dcdb32bfc")
 	)
+	(label "CHARGING_POWER_GOOD"
+		(at 152.4 44.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98b3b639-a41b-4b13-a447-a8731fb0c94a")
+	)
 	(label "VBUS"
 		(at 34.29 58.42 180)
 		(effects
@@ -5764,6 +5784,16 @@
 			(justify right bottom)
 		)
 		(uuid "ddf10ce0-6958-4e8b-9dd3-8aadd299728e")
+	)
+	(label "CHARGED"
+		(at 166.37 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8a79031-3d5f-4ac4-8bbc-0687bc24c236")
 	)
 	(label "USB_DP"
 		(at 34.29 63.5 180)
@@ -6465,7 +6495,7 @@
 	)
 	(symbol
 		(lib_id "LTST-C170GKT:LTST-C170GKT")
-		(at 157.48 76.2 90)
+		(at 166.37 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6473,25 +6503,25 @@
 		(dnp no)
 		(uuid "1c2c1b49-47fa-4dbe-81db-050add5358b4")
 		(property "Reference" "LED2"
-			(at 146.05 68.58 90)
+			(at 167.64 66.04 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "LTST-C170GKT"
-			(at 134.62 71.12 90)
+			(at 160.02 66.04 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
 		)
 		(property "Footprint" "LED_LTST-C170GKT_LTO"
-			(at 157.48 76.2 0)
+			(at 166.37 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,7 +6531,7 @@
 			)
 		)
 		(property "Datasheet" "LTST-C170GKT"
-			(at 157.48 76.2 0)
+			(at 166.37 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +6541,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 76.2 0)
+			(at 166.37 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,7 +7177,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 53.34 180)
+		(at 152.4 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7156,7 +7186,7 @@
 		(fields_autoplaced yes)
 		(uuid "46540f7d-312d-41ec-b401-11b0e4fe6be6")
 		(property "Reference" "R9"
-			(at 160.02 52.0699 0)
+			(at 154.94 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7165,7 +7195,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 160.02 54.6099 0)
+			(at 154.94 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +7204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 159.258 53.34 90)
+			(at 154.178 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +7213,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 53.34 0)
+			(at 152.4 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +7222,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 53.34 0)
+			(at 152.4 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,8 +7384,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 248.92 26.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b2daa76-6019-402a-9e98-9d99d03703a7")
+		(property "Reference" "#PWR019"
+			(at 245.11 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 252.73 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b39a5615-a0b8-447b-99c7-131332dfbebb")
+		)
+		(instances
+			(project "project5_esp32_demo_project"
+				(path "/4f22731a-f223-4edc-b2be-2233ce3b179a"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LTST-C170TBKT:LTST-C170TBKT")
-		(at 175.26 69.85 270)
+		(at 152.4 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7363,25 +7460,25 @@
 		(dnp no)
 		(uuid "77a17b19-75b5-4944-8d5b-754117c29cdc")
 		(property "Reference" "LED3"
-			(at 180.34 71.12 90)
+			(at 157.48 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "LTST-C170TBKT"
-			(at 180.34 73.66 90)
+			(at 149.86 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LTST-C170TBKT:DIOC200X125X110"
-			(at 175.26 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +7488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,7 +7497,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7506,7 @@
 			)
 		)
 		(property "MF" "Lite-On Inc."
-			(at 175.26 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +7516,7 @@
 			)
 		)
 		(property "Description_1" "Blue 470nm LED Indication - Discrete 3.3V 0805 (2012 Metric)"
-			(at 175.26 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7429,7 +7526,7 @@
 			)
 		)
 		(property "Package" "0805 Lite-On"
-			(at 175.26 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +7536,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 175.26 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,7 +7546,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C170TBKT/Lite-On/view-part/?ref=eda"
-			(at 175.26 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7459,7 +7556,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C170TBKT/Lite-On/view-part/?ref=snap"
-			(at 175.26 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,7 +7566,7 @@
 			)
 		)
 		(property "MP" "LTST-C170TBKT"
-			(at 175.26 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +7576,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 175.26 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,7 +7586,7 @@
 			)
 		)
 		(property "MANUFACTURER" "LiteOn"
-			(at 175.26 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9080,7 +9177,7 @@
 	)
 	(symbol
 		(lib_id "LTST-C170KRKT:LTST-C170KRKT")
-		(at 166.37 69.85 270)
+		(at 179.07 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9088,7 +9185,7 @@
 		(dnp no)
 		(uuid "c5392582-65db-48b1-b176-e30987c4d6f2")
 		(property "Reference" "LED1"
-			(at 165.1 76.2 90)
+			(at 180.34 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9097,7 +9194,7 @@
 			)
 		)
 		(property "Value" "LTST-C170KRKT"
-			(at 158.75 78.74 90)
+			(at 176.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,7 +9203,7 @@
 			)
 		)
 		(property "Footprint" "LTST-C170KRKT:DIOC200X125X110"
-			(at 166.37 69.85 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +9213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 69.85 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +9222,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 69.85 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9134,7 +9231,7 @@
 			)
 		)
 		(property "MF" "Lite-On Inc."
-			(at 166.37 69.85 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9144,7 +9241,7 @@
 			)
 		)
 		(property "Description_1" "Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)"
-			(at 166.37 69.85 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9154,7 +9251,7 @@
 			)
 		)
 		(property "Package" "0805 Lite-On"
-			(at 166.37 69.85 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9164,7 +9261,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 166.37 69.85 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9174,7 +9271,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/?ref=eda"
-			(at 166.37 69.85 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9281,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/?ref=snap"
-			(at 166.37 69.85 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +9291,7 @@
 			)
 		)
 		(property "MP" "LTST-C170KRKT"
-			(at 166.37 69.85 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,7 +9301,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 166.37 69.85 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9214,7 +9311,7 @@
 			)
 		)
 		(property "MANUFACTURER" "LiteOn"
-			(at 166.37 69.85 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9310,7 +9407,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 175.26 53.34 180)
+		(at 179.07 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9319,7 +9416,7 @@
 		(fields_autoplaced yes)
 		(uuid "d596f44f-cc87-4ea9-a494-789a8bbe8e97")
 		(property "Reference" "R8"
-			(at 177.8 52.0699 0)
+			(at 181.61 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9328,7 +9425,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 177.8 54.6099 0)
+			(at 181.61 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9337,7 +9434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.038 53.34 90)
+			(at 180.848 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9346,7 +9443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9355,7 +9452,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 175.26 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
