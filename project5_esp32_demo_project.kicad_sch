@@ -4837,6 +4837,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 124.46) (xy 194.31 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fc4262-ad0f-4da9-a497-2761bd8a212a")
+	)
+	(wire
+		(pts
 			(xy 115.57 118.11) (xy 115.57 113.03)
 		)
 		(stroke
@@ -4844,6 +4854,16 @@
 			(type default)
 		)
 		(uuid "3278e8e9-d98d-40c7-8194-f5a878f310c4")
+	)
+	(wire
+		(pts
+			(xy 191.77 118.11) (xy 194.31 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411541f4-3145-479d-bad5-dec040c9f139")
 	)
 	(wire
 		(pts
@@ -5377,6 +5397,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 120.65) (xy 194.31 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5194c44-fd4d-4dbd-9d47-f341c3652879")
+	)
+	(wire
+		(pts
 			(xy 166.37 80.645) (xy 166.37 85.09)
 		)
 		(stroke
@@ -5644,6 +5674,36 @@
 			(justify right bottom)
 		)
 		(uuid "3218a47e-a2dc-4d7c-95fe-612473c99e3a")
+	)
+	(label "USB_DP"
+		(at 194.31 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "439248f6-08d2-48f0-9ce6-cd496a87b47b")
+	)
+	(label "USB_DN"
+		(at 194.31 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "458e25bc-b670-4872-b0bb-7e75ff07927a")
+	)
+	(label "VBUS"
+		(at 194.31 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "459d8e44-4928-4ca6-bb0a-f84d21027c15")
 	)
 	(label "CHARGING"
 		(at 179.07 49.53 90)
@@ -9948,8 +10008,8 @@
 		)
 	)
 	(sheet
-		(at 162.46 112.25)
-		(size 82.65 44.595)
+		(at 167.005 109.33)
+		(size 24.765 31.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9964,7 +10024,7 @@
 		)
 		(uuid "018e42ea-250a-4271-8f17-dfb169b11a85")
 		(property "Sheetname" "ESP32-C3-02"
-			(at 162.46 111.5384 0)
+			(at 167.005 108.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,12 +10033,42 @@
 			)
 		)
 		(property "Sheetfile" "esp32-c3-02.kicad_sch"
-			(at 162.46 157.4296 0)
+			(at 167.005 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_DN" input
+			(at 191.77 118.11 0)
+			(uuid "084cd0fc-ac81-4157-87be-6215de1eebb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 191.77 120.65 0)
+			(uuid "35a52b5b-e2fb-4586-8a6c-b6a73c60c6b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 191.77 124.46 0)
+			(uuid "66860227-7219-4aae-99e9-d4096df85c12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
