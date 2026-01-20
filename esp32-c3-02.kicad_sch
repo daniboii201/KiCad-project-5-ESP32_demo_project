@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "0d579bf9-cbbc-4670-aa5a-507560b4503f")
+	(uuid "a8d61626-94dc-411f-872f-b46c02c10d7a")
 	(paper "A4")
+	(title_block
+		(title "ESP32 C3, USB and flash memory")
+		(date "2026-01-19")
+		(rev "-")
+		(company "Nonexistent Co.")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -4180,8 +4186,8 @@
 		(uuid 133be465-3e01-4ac9-8d57-db801a98e129)
 	)
 	(rectangle
-		(start 35.56 132.715)
-		(end 121.285 167.64)
+		(start 20.32 121.285)
+		(end 106.045 156.21)
 		(stroke
 			(width 0)
 			(type default)
@@ -4228,7 +4234,7 @@
 	)
 	(text "Flash memory"
 		(exclude_from_sim no)
-		(at 39.37 130.81 0)
+		(at 24.13 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4290,7 +4296,7 @@
 		(uuid "2ff1ba7b-2662-46ca-b11d-06e7f1326cdf")
 	)
 	(junction
-		(at 39.37 149.86)
+		(at 24.13 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3058a722-c53e-4796-aedd-81f5eefa219b")
@@ -4302,7 +4308,7 @@
 		(uuid "44a1def6-2b22-4673-ab10-882dec483787")
 	)
 	(junction
-		(at 111.76 157.48)
+		(at 96.52 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47d68177-2231-4288-8112-68378aeea1c9")
@@ -4368,7 +4374,7 @@
 		(uuid "dece1e18-4955-44c6-b815-a8ab93bdb75c")
 	)
 	(junction
-		(at 111.76 142.24)
+		(at 96.52 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f764d942-1402-4050-b283-e180b4953290")
@@ -4403,7 +4409,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 154.94) (xy 68.58 154.94)
+			(xy 51.435 143.51) (xy 53.34 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4443,7 +4449,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 160.02) (xy 66.675 160.02)
+			(xy 24.13 148.59) (xy 51.435 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4493,7 +4499,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 142.24) (xy 39.37 149.86)
+			(xy 24.13 130.81) (xy 24.13 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4553,7 +4559,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 149.86) (xy 39.37 160.02)
+			(xy 24.13 138.43) (xy 24.13 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4583,7 +4589,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 156.21) (xy 66.675 154.94)
+			(xy 51.435 144.78) (xy 51.435 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4613,7 +4619,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 146.05) (xy 111.76 142.24)
+			(xy 96.52 134.62) (xy 96.52 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4623,7 +4629,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 160.02) (xy 111.76 157.48)
+			(xy 96.52 148.59) (xy 96.52 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4653,7 +4659,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 139.7) (xy 111.76 142.24)
+			(xy 96.52 128.27) (xy 96.52 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4803,7 +4809,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 153.67) (xy 111.76 157.48)
+			(xy 96.52 142.24) (xy 96.52 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4933,7 +4939,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 157.48) (xy 68.58 157.48)
+			(xy 51.435 146.05) (xy 53.34 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4953,7 +4959,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 149.86) (xy 39.37 149.86)
+			(xy 53.34 138.43) (xy 24.13 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5033,7 +5039,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 156.21) (xy 64.77 156.21)
+			(xy 51.435 144.78) (xy 49.53 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5133,7 +5139,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 157.48) (xy 104.14 157.48)
+			(xy 96.52 146.05) (xy 88.9 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5293,7 +5299,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 142.24) (xy 104.14 142.24)
+			(xy 96.52 130.81) (xy 88.9 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5323,7 +5329,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 160.02) (xy 66.675 157.48)
+			(xy 51.435 148.59) (xy 51.435 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5433,7 +5439,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 156.21) (xy 57.15 156.21)
+			(xy 39.37 144.78) (xy 41.91 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5462,7 +5468,7 @@
 		(uuid "00a42ab1-c6ad-4397-a24c-88a9b1b7520d")
 	)
 	(label "CS"
-		(at 68.58 142.24 180)
+		(at 53.34 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5482,7 +5488,7 @@
 		(uuid "15a188a8-bc3c-41b8-9041-ffcdda1ab688")
 	)
 	(label "MISO_DO"
-		(at 54.61 156.21 180)
+		(at 39.37 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5562,7 +5568,7 @@
 		(uuid "49b8e348-a303-4ff6-8147-aba8531d0fc8")
 	)
 	(label "MOSI_DI"
-		(at 68.58 152.4 180)
+		(at 53.34 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5612,7 +5618,7 @@
 		(uuid "7c11e5d4-b266-4426-9617-6e32d43da108")
 	)
 	(label "SCLK"
-		(at 68.58 144.78 180)
+		(at 53.34 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6001,7 +6007,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 111.76 139.7 0)
+		(at 96.52 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6010,7 +6016,7 @@
 		(fields_autoplaced yes)
 		(uuid "182bc80e-7cc7-4314-896b-0e8113b8f3c5")
 		(property "Reference" "#PWR033"
-			(at 111.76 143.51 0)
+			(at 96.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +6025,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 111.76 134.62 0)
+			(at 96.52 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +6033,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 139.7 0)
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 139.7 0)
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +6051,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 111.76 139.7 0)
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,7 +6644,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 39.37 142.24 0)
+		(at 24.13 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6647,7 +6653,7 @@
 		(fields_autoplaced yes)
 		(uuid "57b208d6-cb97-4e0c-b380-3e768b819cfb")
 		(property "Reference" "#PWR031"
-			(at 39.37 146.05 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6662,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 39.37 137.16 0)
+			(at 24.13 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +6670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 142.24 0)
+			(at 24.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 142.24 0)
+			(at 24.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +6688,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 39.37 142.24 0)
+			(at 24.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6840,7 +6846,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 60.96 156.21 270)
+		(at 45.72 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6848,7 +6854,7 @@
 		(dnp no)
 		(uuid "668b823e-3178-4404-8499-5a2a3e73ea66")
 		(property "Reference" "R17"
-			(at 60.96 153.67 90)
+			(at 45.72 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,7 +6862,7 @@
 			)
 		)
 		(property "Value" "50"
-			(at 60.96 158.75 90)
+			(at 45.72 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +6870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 154.432 90)
+			(at 45.72 143.002 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,7 +6879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 156.21 0)
+			(at 45.72 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +6888,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 60.96 156.21 0)
+			(at 45.72 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7393,7 +7399,7 @@
 	)
 	(symbol
 		(lib_id "W25Q32JVSSIQ:W25Q32JVSSIQ")
-		(at 86.36 149.86 0)
+		(at 71.12 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7402,7 +7408,7 @@
 		(fields_autoplaced yes)
 		(uuid "9709f37d-3dac-4606-9e90-30883c9d1802")
 		(property "Reference" "U6"
-			(at 86.36 134.62 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,7 +7416,7 @@
 			)
 		)
 		(property "Value" "W25Q32JVSSIQ"
-			(at 86.36 137.16 0)
+			(at 71.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +7424,7 @@
 			)
 		)
 		(property "Footprint" "W25Q32JVSSIQ:SOIC127P790X216-8N"
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7446,7 +7452,7 @@
 			)
 		)
 		(property "SHOP" ""
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7456,7 +7462,7 @@
 			)
 		)
 		(property "MF" "Winbond"
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,7 +7472,7 @@
 			)
 		)
 		(property "Description_1" "FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 133 MHz 8-SOIC"
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +7482,7 @@
 			)
 		)
 		(property "Package" "SOIC-8 Winbond"
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +7492,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,7 +7502,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond/view-part/?ref=snap"
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +7512,7 @@
 			)
 		)
 		(property "MP" "W25Q32JVSSIQ"
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7522,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=596953&manufacturer=Winbond&part_name=W25Q32JVSSIQ&search_term=w25q32jvssiq"
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7532,7 @@
 			)
 		)
 		(property "M_PART_NUMBER" "W25QXX"
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,7 +7542,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +7552,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond/view-part/?ref=eda"
-			(at 86.36 149.86 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7590,7 +7596,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 160.02 0)
+		(at 96.52 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7599,7 +7605,7 @@
 		(fields_autoplaced yes)
 		(uuid "a576bcc9-ea65-4066-871c-fd3b24232d60")
 		(property "Reference" "#PWR032"
-			(at 111.76 166.37 0)
+			(at 96.52 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,7 +7614,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 165.1 0)
+			(at 96.52 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 160.02 0)
+			(at 96.52 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,7 +7631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 160.02 0)
+			(at 96.52 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,7 +7640,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 160.02 0)
+			(at 96.52 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +8137,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.76 149.86 0)
+		(at 96.52 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8140,7 +8146,7 @@
 		(fields_autoplaced yes)
 		(uuid "c18e821d-627e-4134-984b-26622fbad4b4")
 		(property "Reference" "C14"
-			(at 115.57 148.5899 0)
+			(at 100.33 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,7 +8155,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 115.57 151.1299 0)
+			(at 100.33 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8158,7 +8164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 112.7252 153.67 0)
+			(at 97.4852 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,7 +8173,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 149.86 0)
+			(at 96.52 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8182,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.76 149.86 0)
+			(at 96.52 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9097,6 +9103,90 @@
 				(path "/4f22731a-f223-4edc-b2be-2233ce3b179a/018e42ea-250a-4271-8f17-dfb169b11a85"
 					(reference "R13")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.89 124.195)
+		(size 26.19 29.425)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 132 0.2500)
+		)
+		(uuid "01e5ef9b-dbe4-42cc-b7a0-050fadfdc5ae")
+		(property "Sheetname" "Sensors"
+			(at 119.89 123.4834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 119.89 154.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "project5_esp32_demo_project"
+				(path "/4f22731a-f223-4edc-b2be-2233ce3b179a/018e42ea-250a-4271-8f17-dfb169b11a85"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 160.02)
+		(size 26.19 29.425)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 153 0 0.2500)
+		)
+		(uuid "8adc9128-af87-4bfc-a705-1730489511ed")
+		(property "Sheetname" "User interface"
+			(at 119.38 159.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "user_interface.kicad_sch"
+			(at 119.38 190.0296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "project5_esp32_demo_project"
+				(path "/4f22731a-f223-4edc-b2be-2233ce3b179a/018e42ea-250a-4271-8f17-dfb169b11a85"
+					(page "4")
 				)
 			)
 		)
