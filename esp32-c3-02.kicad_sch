@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "bd187522-bd10-4670-960b-3443f805eecd")
+	(uuid "955e7da5-0ac3-4e48-9c50-d6cddff6a249")
 	(paper "A4")
 	(title_block
 		(title "ESP32 C3, USB and flash memory")
@@ -4779,6 +4779,16 @@
 	)
 	(wire
 		(pts
+			(xy 139 132) (xy 142 132)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c482569-108e-444f-a5ef-f6927cc38301")
+	)
+	(wire
+		(pts
 			(xy 45.72 73.66) (xy 66.04 73.66)
 		)
 		(stroke
@@ -4796,6 +4806,16 @@
 			(type default)
 		)
 		(uuid "2dd74a6f-f933-41ea-aec2-3e3cde6c1323")
+	)
+	(wire
+		(pts
+			(xy 139 136) (xy 142 136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3083e44b-5679-4e08-927c-0d3d690d0a96")
 	)
 	(wire
 		(pts
@@ -5199,6 +5219,16 @@
 	)
 	(wire
 		(pts
+			(xy 139 128) (xy 142 128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb39af0-2522-42cf-934e-c569b279b65e")
+	)
+	(wire
+		(pts
 			(xy 217.17 36.83) (xy 210.82 36.83)
 		)
 		(stroke
@@ -5569,6 +5599,16 @@
 	)
 	(wire
 		(pts
+			(xy 139 140) (xy 142 140)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a6ea50-f8f7-4d4b-bc45-0f7e135dc53a")
+	)
+	(wire
+		(pts
 			(xy 39.37 144.78) (xy 41.91 144.78)
 		)
 		(stroke
@@ -5606,6 +5646,16 @@
 			(justify right bottom)
 		)
 		(uuid "09e60d99-ec2f-4d52-9359-a5f1893bb8d4")
+	)
+	(label "MIC_OUT"
+		(at 142 128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12b18639-d14a-4d15-b4bf-b49015b2b9ed")
 	)
 	(label "CS_SD"
 		(at 214.63 138.43 0)
@@ -5676,6 +5726,16 @@
 			(justify right bottom)
 		)
 		(uuid "37e958cd-3239-4ef6-b0a5-e4909de4f2d7")
+	)
+	(label "PHOTO_C"
+		(at 142 132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42415019-0bc7-40de-8278-09106c0c30a7")
 	)
 	(label "GPIO8"
 		(at 210.82 46.99 0)
@@ -5807,6 +5867,16 @@
 		)
 		(uuid "913f4e87-22a6-4195-a1e7-03537af8134d")
 	)
+	(label "SCL"
+		(at 142 136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "918d2115-ad37-4dc4-8489-954875cac672")
+	)
 	(label "MISO_DO"
 		(at 153.67 96.52 0)
 		(effects
@@ -5856,6 +5926,16 @@
 			(justify right bottom)
 		)
 		(uuid "c41f75e4-6052-41cc-9f3b-134a67ce9a5b")
+	)
+	(label "SDA"
+		(at 142 140 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9af06fe-3959-43b2-8eba-7f250a276739")
 	)
 	(label "DTS"
 		(at 91.44 66.04 0)
@@ -9613,8 +9693,8 @@
 		)
 	)
 	(sheet
-		(at 119.89 124.195)
-		(size 26.19 29.425)
+		(at 119.48 122.705)
+		(size 19.52 29.425)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9629,7 +9709,7 @@
 		)
 		(uuid "01e5ef9b-dbe4-42cc-b7a0-050fadfdc5ae")
 		(property "Sheetname" "Sensors"
-			(at 119.89 123.4834 0)
+			(at 119.48 121.9934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,12 +9718,52 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 119.89 154.2046 0)
+			(at 119.48 152.7146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MIC_OUT" input
+			(at 139 128 0)
+			(uuid "3f087695-6e39-41fa-ac2e-61d676915c44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHOTO_C" output
+			(at 139 132 0)
+			(uuid "3f4cd52a-71d7-4298-a6e4-72be3f649118")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 139 136 0)
+			(uuid "f430d13d-4f6f-4599-a8cb-362fd21e18d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 139 140 0)
+			(uuid "001544bc-87af-4b99-a866-60d4ce07c1a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
