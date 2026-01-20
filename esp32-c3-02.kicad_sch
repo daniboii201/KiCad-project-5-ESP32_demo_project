@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c0cae6a0-5618-4619-8dbe-903b70c541e7")
+	(uuid "5cbe24d3-b907-4543-adff-beb43062eb6e")
 	(paper "A4")
 	(title_block
 		(title "ESP32 C3, USB and flash memory")
