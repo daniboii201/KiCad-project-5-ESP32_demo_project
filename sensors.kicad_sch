@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "e9e5f9a3-b55b-4a82-870e-3bee43555f04")
+	(uuid "2f276671-81c4-400a-8446-2bde8b0eab64")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BME280:BME280"
@@ -1825,6 +1825,18 @@
 		)
 	)
 	(rectangle
+		(start 128.27 33.02)
+		(end 175.895 65.405)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 25222981-b53c-486b-8cf5-ad9f90ca26a4)
+	)
+	(rectangle
 		(start 24.765 25.4)
 		(end 107.95 70.485)
 		(stroke
@@ -1846,6 +1858,17 @@
 			(justify left)
 		)
 		(uuid "01bff1c1-16db-4793-bdce-e84296bcdfc1")
+	)
+	(text "Photo sensor"
+		(exclude_from_sim no)
+		(at 129.54 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ec32514-2c1f-43a7-9ff3-99eeaeee7c3c")
 	)
 	(junction
 		(at 99.06 40.005)
@@ -1870,6 +1893,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66634b15-16bc-43cc-8366-3238707c5092")
+	)
+	(junction
+		(at 156.21 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fa860d3-f688-4e69-b305-2e36a495d32b")
 	)
 	(junction
 		(at 99.06 37.465)
@@ -1951,6 +1980,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 39.37) (xy 156.21 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2193d59d-ad7d-4206-8650-fea92e322de5")
+	)
+	(wire
+		(pts
 			(xy 63.5 45.085) (xy 58.42 45.085)
 		)
 		(stroke
@@ -2021,6 +2060,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 54.61) (xy 130.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5882bedb-af55-4b74-92f8-0f373fed06d2")
+	)
+	(wire
+		(pts
 			(xy 63.5 47.625) (xy 57.15 47.625)
 		)
 		(stroke
@@ -2061,6 +2110,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 54.61) (xy 165.1 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6034d8-81a3-4c2c-963e-2bc0eb987fdf")
+	)
+	(wire
+		(pts
 			(xy 57.15 55.245) (xy 36.83 55.245)
 		)
 		(stroke
@@ -2088,6 +2147,16 @@
 			(type default)
 		)
 		(uuid "ad9d542c-c135-491d-abdc-dac2c1cb5fab")
+	)
+	(wire
+		(pts
+			(xy 137.16 54.61) (xy 130.81 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ba73e2-b8fd-4ab8-a892-4c9e8bb702b1")
 	)
 	(wire
 		(pts
@@ -2159,6 +2228,26 @@
 		)
 		(uuid "ecc77ef9-4707-4008-b17e-a62dc75ed779")
 	)
+	(wire
+		(pts
+			(xy 147.32 54.61) (xy 156.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28e857d-d372-4b3e-969c-93cde3d18a21")
+	)
+	(wire
+		(pts
+			(xy 156.21 54.61) (xy 156.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60a5af8-7457-48f5-96eb-e67666c51b1c")
+	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 30.48 55.245 180)
@@ -2180,6 +2269,83 @@
 			(justify right)
 		)
 		(uuid "847608e2-857b-44f3-9e57-412f51b6d70c")
+	)
+	(hierarchical_label "PHOTO_C"
+		(shape output)
+		(at 165.1 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b55d8310-a73a-4ec1-89b7-44a97d55fd97")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c0126a9-0e91-462f-8fc3-c0b21d88df02")
+		(property "Reference" "#PWR039"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "daf07c5b-ec0d-4359-bcb3-54c74f888aa0")
+		)
+		(instances
+			(project "project5_esp32_demo_project"
+				(path "/4f22731a-f223-4edc-b2be-2233ce3b179a/018e42ea-250a-4271-8f17-dfb169b11a85/01e5ef9b-dbe4-42cc-b7a0-050fadfdc5ae"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "BME280:BME280")
@@ -2704,7 +2870,7 @@
 	)
 	(symbol
 		(lib_id "CMC-5042PF-AC:CMC-5042PF-AC")
-		(at 143.51 57.15 0)
+		(at 200.66 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2713,7 +2879,7 @@
 		(fields_autoplaced yes)
 		(uuid "94feaf67-5bd7-4685-af72-4e240d8c1871")
 		(property "Reference" "MK1"
-			(at 144.78 49.53 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +2887,7 @@
 			)
 		)
 		(property "Value" "CMC-5042PF-AC"
-			(at 144.78 52.07 0)
+			(at 201.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" "CMC-5042PF-AC:CUI_CMC-5042PF-AC"
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +2905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2914,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2923,7 @@
 			)
 		)
 		(property "MF" "Same Sky"
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2933,7 @@
 			)
 		)
 		(property "Description_1" "6.0 mm, Omnidirectional, PCB Mount, 2.0 Vdc, Electret Condenser Microphone"
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2943,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2953,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2963,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CMC-5042PF-AC/Same+Sky/view-part/?ref=eda"
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +2973,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2983,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CMC-5042PF-AC/Same+Sky/view-part/?ref=snap"
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2993,7 @@
 			)
 		)
 		(property "MP" "CMC-5042PF-AC"
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +3003,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=128985&manufacturer=Same Sky&part_name=CMC-5042PF-AC&search_term=None"
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +3013,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +3023,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CUI INC"
-			(at 143.51 57.15 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3181,7 @@
 	)
 	(symbol
 		(lib_id "TEMT6000X01:TEMT6000X01")
-		(at 172.72 88.9 0)
+		(at 142.24 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3024,25 +3190,23 @@
 		(fields_autoplaced yes)
 		(uuid "c89d0d82-d276-4fa3-bb35-bdf797e02c97")
 		(property "Reference" "Q1"
-			(at 176.53 87.6045 0)
+			(at 142.2654 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TEMT6000X01"
-			(at 176.53 90.1445 0)
+			(at 142.2654 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TEMT6000X01:TRANS_TEMT6000X01"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3234,7 @@
 			)
 		)
 		(property "MF" "Vishay Semiconductor"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3244,7 @@
 			)
 		)
 		(property "Description_1" "Phototransistors 570nm Top View 1206 (3216 Metric)"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +3254,7 @@
 			)
 		)
 		(property "Package" "1206 Vishay"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3264,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3274,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TEMT6000X01/Vishay/view-part/?ref=eda"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3284,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3294,7 @@
 			)
 		)
 		(property "PARTREV" "1.9"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +3304,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEMT6000X01/Vishay/view-part/?ref=snap"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3314,7 @@
 			)
 		)
 		(property "MP" "TEMT6000X01"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +3324,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=106092&manufacturer=Vishay Semiconductor&part_name=TEMT6000X01&search_term=temt6000x01"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3334,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3344,7 @@
 			)
 		)
 		(property "MANUFACTURER" "VISHAY"
-			(at 172.72 88.9 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,6 +3363,76 @@
 			(project ""
 				(path "/4f22731a-f223-4edc-b2be-2233ce3b179a/018e42ea-250a-4271-8f17-dfb169b11a85/01e5ef9b-dbe4-42cc-b7a0-050fadfdc5ae"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c97cd81a-5698-46bf-9371-38356e02cea7")
+		(property "Reference" "R23"
+			(at 158.75 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 158.75 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.432 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "195563af-2828-4b55-b9c1-47b5b0cb6b21")
+		)
+		(pin "1"
+			(uuid "36d51d06-f6d4-4888-8912-e5cdabdc1cfa")
+		)
+		(instances
+			(project "project5_esp32_demo_project"
+				(path "/4f22731a-f223-4edc-b2be-2233ce3b179a/018e42ea-250a-4271-8f17-dfb169b11a85/01e5ef9b-dbe4-42cc-b7a0-050fadfdc5ae"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3335,6 +3569,72 @@
 			(project ""
 				(path "/4f22731a-f223-4edc-b2be-2233ce3b179a/018e42ea-250a-4271-8f17-dfb169b11a85/01e5ef9b-dbe4-42cc-b7a0-050fadfdc5ae"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 156.21 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8480a4b-5e53-4d8f-8153-2ae1339160ea")
+		(property "Reference" "#PWR038"
+			(at 156.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 156.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eff8fc3-0d7b-44f8-ab02-fd7be69c82fb")
+		)
+		(instances
+			(project "project5_esp32_demo_project"
+				(path "/4f22731a-f223-4edc-b2be-2233ce3b179a/018e42ea-250a-4271-8f17-dfb169b11a85/01e5ef9b-dbe4-42cc-b7a0-050fadfdc5ae"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
