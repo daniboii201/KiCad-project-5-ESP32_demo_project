@@ -6535,7 +6535,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESP32_demo_project:LTST-C170GKT"
 			(at 166.37 74.93 0)
 			(effects
 				(font
@@ -7074,7 +7074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESP32_demo_project:LTST-C170GKT"
 			(at 92.71 173.99 0)
 			(effects
 				(font
@@ -7490,7 +7490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LTST-C170TBKT:DIOC200X125X110"
+		(property "Footprint" "ESP32_demo_project:LTST-C170TBKT"
 			(at 152.4 69.85 0)
 			(effects
 				(font
@@ -8278,7 +8278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP73871-2CAI_ML:QFN50P400X400X100-21N"
+		(property "Footprint" "ESP32_demo_project:MCP73871-2CAI_ML"
 			(at 226.06 41.91 0)
 			(effects
 				(font
@@ -8609,7 +8609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB"
+		(property "Footprint" "ESP32_demo_project:B2B-PH-SM4-TB"
 			(at 45.72 165.1 0)
 			(effects
 				(font
@@ -8764,6 +8764,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 45.72 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9291,7 +9300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LTST-C170KRKT:DIOC200X125X110"
+		(property "Footprint" "ESP32_demo_project:LTST-C170KRKT"
 			(at 179.07 68.58 0)
 			(effects
 				(font

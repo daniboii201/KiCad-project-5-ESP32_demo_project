@@ -3121,7 +3121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "ESP32_demo_project:USLPT2819DT2TR"
 			(at 121.285 66.04 0)
 			(effects
 				(font
@@ -3860,7 +3860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "ESP32_demo_project:USLPT2819DT2TR"
 			(at 175.26 62.23 0)
 			(effects
 				(font

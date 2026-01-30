@@ -3002,7 +3002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BME280:PSON65P250X250X100-8N"
+		(property "Footprint" "ESP32_demo_project:BME280"
 			(at 78.74 47.625 0)
 			(effects
 				(font
@@ -3639,7 +3639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX4466EXK:SOT65P210X110-5N"
+		(property "Footprint" "ESP32_demo_project:MAX4466EXK"
 			(at 109.22 118.11 0)
 			(effects
 				(font
@@ -3933,7 +3933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMC-5042PF-AC:CUI_CMC-5042PF-AC"
+		(property "Footprint" "ESP32_demo_project:CMC-5042PF-AC"
 			(at 33.02 118.11 0)
 			(effects
 				(font
@@ -4515,7 +4515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TEMT6000X01:TRANS_TEMT6000X01"
+		(property "Footprint" "ESP32_demo_project:TEMT6000X01"
 			(at 142.24 52.07 0)
 			(effects
 				(font

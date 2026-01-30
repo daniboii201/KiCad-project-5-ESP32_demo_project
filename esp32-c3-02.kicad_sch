@@ -6660,7 +6660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GSD090012SEU:AMPHENOL_GSD090012SEU"
+		(property "Footprint" "ESP32_demo_project:GSD090012SEU"
 			(at 191.77 138.43 0)
 			(effects
 				(font
@@ -7569,7 +7569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+		(property "Footprint" "ESP32_demo_project:QFN20_CP2102N_SIL"
 			(at 110.49 107.95 0)
 			(effects
 				(font
@@ -7695,7 +7695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LTST-C170KRKT:DIOC200X125X110"
+		(property "Footprint" "ESP32_demo_project:LTST-C170KRKT"
 			(at 121.92 102.87 0)
 			(effects
 				(font
@@ -8116,7 +8116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "W25Q32JVSSIQ:SOIC127P790X216-8N"
+		(property "Footprint" "ESP32_demo_project:W25Q32JVSSIQ"
 			(at 71.12 138.43 0)
 			(effects
 				(font
@@ -8446,7 +8446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-C3-WROOM-02-H4:MODULE_ESP32-C3-WROOM-02-H4"
+		(property "Footprint" "ESP32_demo_project:ESP32-C3-WROOM-02-H4"
 			(at 193.04 54.61 0)
 			(effects
 				(font
@@ -8914,7 +8914,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESP32_demo_project:LTST-C170GKT"
 			(at 128.27 87.63 0)
 			(effects
 				(font
